@@ -1,0 +1,94 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo creme */
+body {
+    background-color: #f5f5dc; /* Cor creme */
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Logo no canto superior direito */
+.logo {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Texto principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

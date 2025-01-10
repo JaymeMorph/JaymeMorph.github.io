@@ -59,25 +59,33 @@ nav {
 
 /* Texto principal */
 main {
-    padding: 120px 20px 20px; /* Espaço extra no topo para o cabeçalho fixo */
-    text-align: center;
+    padding-top: 120px; /* Espaço extra no topo para o cabeçalho fixo */
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end; /* Alinhando o conteúdo à direita */
+    align-items: flex-start;
+    height: 100vh; /* Garantindo que o conteúdo ocupe toda a altura da página */
+    text-align: right; /* Alinhando o texto à direita */
 }
 
-/* Introdução alinhada à direita */
+/* Introdução alinhada à direita e com tamanho maior */
 .introducao {
     text-align: right;
-    margin-top: 20px;
+    font-size: 24px; /* Aumentando o tamanho da fonte */
+    color: #333;
+    max-width: 600px; /* Limitando a largura para o texto não ocupar toda a largura da tela */
 }
 
 /* Estilo para o título */
 h1 {
-    font-size: 24px;
+    font-size: 36px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 24px;
     color: #555;
 }
 

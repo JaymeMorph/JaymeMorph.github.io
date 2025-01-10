@@ -1,116 +1,43 @@
-/* Resetando margens e paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com logo e navegação -->
+    <header>
+        <img class="logo" src="Icon.png" alt="Logo do site">
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#morfometria">Morfometria</a></li>
+                <li><a href="#microCT">MicroCT</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#publicacoes">Publicações</a></li>
+            </ul>
+        </nav>
+    </header>
 
-/* Fundo creme */
-body {
-    background-color: #f5f5dc; /* Cor creme */
-    font-family: Arial, sans-serif;
-}
+    <!-- Texto principal da página -->
+    <main>
+        <section id="sobre">
+            <h1>Seja Bem-vindo!</h1>
+            <div class="introducao">
+                <p>Olá, Sou Jayme Massim, e nesta página reuni informações sobre minha formação acadêmica e minha experiência com ensino, pesquisa e extensão.</p>
+            </div>
+        </section>
+    </main>
 
-/* Cabeçalho */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f5f5dc;
-    z-index: 1000;
-}
-
-/* Logo maior e posicionado no canto superior esquerdo */
-.logo {
-    width: 500px; /* Logo grande */
-    height: auto;
-}
-
-/* Menu de navegação no lado direito */
-nav {
-    margin-left: auto;
-}
-
-.menu {
-    list-style-type: none;
-    display: flex;
-    gap: 15px;
-}
-
-.menu li {
-    display: inline;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.menu li a:hover {
-    color: #007BFF;
-}
-
-/* Texto principal */
-main {
-    padding-top: 120px; /* Espaço extra no topo para o cabeçalho fixo */
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: flex-start; /* Garantindo que o conteúdo fique à esquerda */
-    align-items: flex-start;
-    height: 100vh; /* Garantindo que o conteúdo ocupe toda a altura da página */
-    text-align: left; /* Alinhando o texto à esquerda */
-}
-
-/* Introdução alinhada à esquerda e com tamanho maior */
-.introducao {
-    text-align: left;
-    font-size: 24px; /* Aumentando o tamanho da fonte */
-    color: #333;
-    max-width: 600px; /* Limitando a largura para o texto não ocupar toda a largura da tela */
-}
-
-/* Estilo para o título */
-h1 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 24px;
-    color: #555;
-}
-
-/* Rodapé */
-footer {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    text-align: right;
-}
-
-footer ul {
-    list-style-type: none;
-}
-
-footer ul li {
-    margin-bottom: 5px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
-}
+    <!-- Rodapé -->
+    <footer>
+        <ul>
+            <li><a href="financiamento.html">Financiamento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

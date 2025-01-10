@@ -17,13 +17,18 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5dc;
+    z-index: 1000;
 }
 
-/* Logo no canto superior esquerdo */
+/* Logo maior e posicionado no canto superior esquerdo */
 .logo {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
+    width: 150px; /* Aumentando o tamanho do logo */
     height: auto;
-    margin-right: auto;
 }
 
 /* Menu de navegação no lado direito */
@@ -54,7 +59,7 @@ nav {
 
 /* Texto principal */
 main {
-    padding: 20px;
+    padding: 80px 20px 20px; /* Espaço extra no topo para o cabeçalho fixo */
     text-align: center;
 }
 

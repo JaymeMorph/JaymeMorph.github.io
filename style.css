@@ -27,7 +27,7 @@ header {
 
 /* Logo maior e posicionado no canto superior esquerdo */
 .logo {
-    width: 600px; /* Aumentando o tamanho do logo */
+    width: 500px; /* Aumentando o tamanho do logo */
     height: auto;
 }
 

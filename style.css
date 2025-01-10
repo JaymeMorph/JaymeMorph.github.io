@@ -19,10 +19,11 @@ header {
     padding: 20px;
 }
 
-/* Logo no canto superior esquerdo e maior */
+/* Logo no canto superior esquerdo */
 .logo {
-    width: 100px; /* Aumente ou diminua conforme necessário */
+    width: 100px; /* Ajuste o tamanho conforme necessário */
     height: auto;
+    margin-right: auto;
 }
 
 /* Menu de navegação no lado direito */

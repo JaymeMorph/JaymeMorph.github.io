@@ -27,7 +27,7 @@ header {
 
 /* Logo maior e posicionado no canto superior esquerdo */
 .logo {
-    width: 500px; /* Aumentando o tamanho do logo */
+    width: 500px; /* Logo grande */
     height: auto;
 }
 
@@ -59,12 +59,19 @@ nav {
 
 /* Texto principal */
 main {
-    padding: 80px 20px 20px; /* Espaço extra no topo para o cabeçalho fixo */
+    padding: 120px 20px 20px; /* Espaço extra no topo para o cabeçalho fixo */
     text-align: center;
 }
 
+/* Introdução alinhada à direita */
+.introducao {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Estilo para o título */
 h1 {
-    font-size: 36px;
+    font-size: 24px;
     color: #333;
     margin-bottom: 10px;
 }

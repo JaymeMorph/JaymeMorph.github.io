@@ -7,7 +7,7 @@
 
 /* Fundo creme */
 body {
-    background-color: #f5f5dc; /* Cor creme */
+    background-color: #ffffdf; /* Cor creme */
     font-family: Arial, sans-serif;
 }
 
@@ -16,30 +16,33 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding:25px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f5f5dc;
+    background-color: #d5cfd555c;
     z-index: 1000;
 }
 
 /* Logo maior e posicionado no canto superior esquerdo */
 .logo {
-    width: 500px; /* Logo grande */
-    height: auto;
+    width: 300px; /* Logo grande */
+    height:auto;
+    margin-left:4px
+    
 }
 
 /* Menu de navegação no lado direito */
 nav {
-    margin-left: auto;
+    margin-r: auto;
 }
 
 .menu {
     list-style-type: none;
     display: flex;
-    gap: 15px;
+    gap: 25px;
+    height:455px
 }
 
 .menu li {
@@ -47,31 +50,36 @@ nav {
 }
 
 .menu li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    font-weight: bold;
+    text-deco]
+    ration: none;
+    color: #484848;
+    font-size: 15px;
+    font-weight: italic;
 }
 
 .menu li a:hover {
-    color: #007BFF;
+    color: #007BF;
 }
 
 /* Texto principal */
 main {
-    padding: 120px 20px 20px; /* Espaço extra no topo para o cabeçalho fixo */
-    text-align: right;
+    padding: 124px 20px 20px; /* Espaço extra no topo para o cabeçalho fixo */
+    text-align: left;
+    margin-top: 35px;
+     margin-left:300px;
+    font-size:50px;
 }
 
 /* Introdução alinhada à direita */
 .introducao {
-    text-align: right;
-    margin-top: 20px;
+    text-align: ;
+    margin-top: 25px;
+  
 }
 
 /* Estilo para o título */
 h1 {
-    font-size: 24px;
+    font-size: 35px;
     color: #333;
     margin-bottom: 10px;
 }

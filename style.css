@@ -16,44 +16,40 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:25px;
+    padding: 25px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #d5cfd555c;
+    background-color: rgba(213, 207, 213, 0.5); /* Corrigi a cor */
     z-index: 1000;
 }
 
 /* Logo maior e posicionado no canto superior esquerdo */
 .logo {
     width: 300px; /* Logo grande */
-    height:auto;
-    margin-left:4px
-    margin-right:18px   
-    
+    height: auto;
+    margin-left: 4px;
 }
 
-/* Logo maior e posicionado no canto superior esquerdo */
+/* Imagem adicional */
 .img {
-    width: 300px; /* Logo grande */
-    height:auto;
-    margin-left:3000px
-    margin-right:18px
-    
-    
+    width: 300px;
+    height: auto;
+    margin: 50px 0 0 85px; /* Margem ajustada */
+    position: relative; /* Mantém no fluxo normal */
+    z-index: 3;
 }
 
 /* Menu de navegação no lado direito */
 nav {
-    margin-r: auto;
+    margin-right: auto; /* Corrigi a propriedade */
 }
 
 .menu {
     list-style-type: none;
-    display: flex;
-    gap: 25px;
-    height:455px
+    display: flex; /* Itens do menu alinhados horizontalmente */
+    gap: 25px; /* Espaçamento entre os itens */
 }
 
 .menu li {
@@ -61,15 +57,14 @@ nav {
 }
 
 .menu li a {
-    text-deco]
-    ration: none;
+    text-decoration: none; /* Corrigi a propriedade */
     color: #484848;
     font-size: 15px;
     font-weight: italic;
 }
 
 .menu li a:hover {
-    color: #007BF;
+    color: #007BFF; /* Ajustei o código de cor */
 }
 
 /* Texto principal */
@@ -77,15 +72,14 @@ main {
     padding: 124px 20px 20px; /* Espaço extra no topo para o cabeçalho fixo */
     text-align: left;
     margin-top: 35px;
-     margin-left:300px;
-    font-size:50px;
+    margin-left: 300px;
+    font-size: 18px;
 }
 
-/* Introdução alinhada à direita */
+/* Introdução alinhada à esquerda */
 .introducao {
-    text-align: ;
+    text-align: left;
     margin-top: 25px;
-  
 }
 
 /* Estilo para o título */
